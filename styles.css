@@ -1,3 +1,30 @@
+/*Karla setting*/
+body {
+  font: "Karla", sans-serif;
+}
+
+h1 {
+  font-size: 35;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/*End Karla*/
+
 h1, h2, h3 {
     text-align: center;
 }
