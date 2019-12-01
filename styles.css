@@ -48,12 +48,13 @@ p {
   padding: 0;
 }
 
-li{
+#navbar li{
   float: right;
 }
 
 #navbar a{
   display: block;
+  margin-top: -5px;
   padding: 20px;
   margin-left: -10px;
   margin-right: 100px;
@@ -66,7 +67,7 @@ header{
   clear:both; 
 }
 
-main{
+.row {
   margin-left: 70px;
   margin-right: 70px;
 }
@@ -75,7 +76,7 @@ h1, h2, h3 {
   text-align: center;
 }
 
-p, img {
+.column p, img {
   margin-left: 10px;
   margin-right: 10px;
   text-align: justify;
@@ -90,4 +91,10 @@ p, img {
   content: "";
   display: table;
   clear: both;
+}
+
+.center {
+  margin-left: 21%;
+  margin-right: 21%;
+  text-align: justify;
 }
